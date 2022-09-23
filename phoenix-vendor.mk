@@ -13,6 +13,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
     vendor/xiaomi/phoenix/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/phoenix/proprietary/product/etc/permissions/privapp-permissions-google-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-hotword.xml \
+    vendor/xiaomi/phoenix/proprietary/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libldacBT_abr.so \
+    vendor/xiaomi/phoenix/proprietary/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libldacBT_enc.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libldacBT_abr.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libldacBT_enc.so \
     vendor/xiaomi/phoenix/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml \
     vendor/xiaomi/phoenix/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml \
     vendor/xiaomi/phoenix/proprietary/product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
